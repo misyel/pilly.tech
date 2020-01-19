@@ -245,12 +245,12 @@ input {
 
 /*profile*/
 .profile-card{
-	width: 300px;
-	height: 100px;
-	padding-top: 80px;
+	width: 450px;
+	padding-top: 100px;
 	margin: auto;
-	background: #fff;
-	box-shadow: 0 10px 10 px 0 rgba(0,0,0,0.5);
+	background: #FFB6C1;
+	background-size: auto;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
 }
 
 .image-container{
@@ -260,11 +260,11 @@ input {
 .image-container h2{
 	position: relative;
 	top: 230px;
-	right:25px;
+	right:10px;
 }
 
 .info{
-	color: #4b4fe2;
+	color: #fff;
 	margin-right: 16px; 
 }
 
@@ -272,7 +272,9 @@ input {
 	position: relative;
 	padding:30px;
 	right: 20px;
+	left: 5px;
 }
+
 
 .skill-bar{
 	background-color: #bdc9ea;
@@ -283,8 +285,8 @@ input {
 	padding: o.1em 16px;
 	border-radius: 16px;
 	text-align: center;
-	color: #fff;
-	background-color: #FFB6C1;
+	color: #000;
+	background-color: #fff;
 }
 
 
