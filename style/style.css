@@ -144,40 +144,46 @@ ul li.active a{
 	font-size:50px;
 }
 
-nav ul{
+.todo ul{
 	margin: 40;
 	padding:0;
 }
-nav ul li{
+.todo ul li{
 	cursor: pointer;
+  	display: block;
   	position: relative;
-    right: 120%;
-  	padding: 12px 8px 12px 12px;
+  	bottom: 230px;
+  	padding: 10px 1160px 12px 12px;
   	background: #eee;
   	font-size: 18px;
   	transition: 0.2s;
 
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
- nav ul li:nth-child(odd) {
+.todo ul li:nth-child(odd) {
   background: #f9f9f9;
 }
 
 /* Darker background-color on hover */
-nav ul li:hover {
+.todo ul li:hover {
   background: #ddd;
 }
 
 /* When clicked on, add a background color and strike out text */
-nav ul li.checked {
+.todo ul li.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
-nav ul li.checked::before {
+.todo ul li.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
