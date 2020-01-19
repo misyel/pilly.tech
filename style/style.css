@@ -53,8 +53,9 @@ ul li.active a{
 .banner img{
 	position: relative;
 	transform: rotate(-60deg);
-	top:260px;
-	left: 455px;
+	margin-top: 20%;
+	top: 30%;
+	left: 36%;
 	width: 200px;
 	height:280px;
 }
@@ -151,8 +152,10 @@ ul li.active a{
 	position: relative;
 	width: auto;
 	height:auto;
-	top: 450px;
-	left: 18%;
+	margin-top: 37%;
+	margin-left: 18%
+	top: 25%;
+	left: 20%;
 }
 
 
