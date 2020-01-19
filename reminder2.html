@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reminders</title>
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width-device-width, initial-scale=1, user-scalable=yes"/> 
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/413rsCatxML._SX425_.jpg">
+			</div>
+			<ul> 
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a>
+				</li>
+				<li><a href="reminder2.html">Reminders</a></li>
+				<li><a href="#">Profile</a></li>
+			</ul>
+		</div>
+			<div class = "reminder">
+				<h1> Reminders </h1>
+			</div>
+		<div id = "myDiv" class="header">
+			<h2>My To Do List</h2>
+  			<input type="text" id="myInput" placeholder="Add a reminder...">
+  			<span onclick="newElement()" class="addBtn">Add</span>
+		</div>
+		<script src="todo.js"></script>
+		<nav>
+			<ul id="myUL">
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>
